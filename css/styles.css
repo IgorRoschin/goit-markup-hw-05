@@ -101,7 +101,7 @@ ul {
   position: relative;
 }
 
-.site-nav .link.link.current::after {
+.site-nav .link.link.current:after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -516,7 +516,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: ;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -622,7 +622,6 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
   background: #ffffff;
-
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -642,6 +641,10 @@ ul {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.cards-image {
+  overflow: hidden;
+  position: relative;
+}
 
 .overlay-cards {
   font-style: normal;
@@ -672,6 +675,7 @@ ul {
 .link:focus .cards-image > .cards-image-overlay {
   opacity: 1;
   transform: translateY(0);
+
 }
 
 img {
